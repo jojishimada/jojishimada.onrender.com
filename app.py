@@ -10,6 +10,6 @@ def index():
 def novocontato():
     return render_template('contato.html')
 
-@app.route('/zero')
+@app.route('/#')
 def novo():
     return render_template('zero.html')
