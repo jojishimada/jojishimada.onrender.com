@@ -7,5 +7,9 @@ def index():
     return render_template('index.html')
 
 @app.route('/contato')
-def contato():
+def novocontato():
     return render_template('contato.html')
+
+@app.route('/zero')
+def novo():
+    return render_template('zero.html')
