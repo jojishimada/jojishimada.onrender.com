@@ -14,4 +14,4 @@ def novocontato():
 def novo():
     return render_template('zero.html')
 
-app.run()
+
