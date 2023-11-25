@@ -13,3 +13,4 @@ def novocontato():
 @app.route('/#')
 def novo():
     return render_template('zero.html')
+
