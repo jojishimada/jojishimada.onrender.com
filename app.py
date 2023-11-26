@@ -10,7 +10,7 @@ def index():
 def novocontato():
     return render_template('contato.html')
 
-@app.route('riodepiracicaba.com.br/contato')
+@app.route('/riodepiracicaba.com.br/contato')
 def novo():
     return render_template('zero.html')
 
