@@ -14,6 +14,11 @@ def novocontato():
 def novodevandroidkotlin():
     return render_template('devandroidkotlin.html')
 
+@app.route('/templates/android_kotlim_introducao.html')
+def android_kotlim_introducao():
+    return render_template('android_kotlim_introducao.html')
+
+
 @app.route('/zero')
 def novo():
     return render_template('zero.html')
