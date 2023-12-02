@@ -10,6 +10,10 @@ def index():
 def novocontato():
     return render_template('contato.html')
 
+@app.route('/desenvolvimentoAndroidKotlin')
+def novodevandroidkotlin():
+    return render_template('devandroidkotlin.html')
+
 @app.route('/zero')
 def novo():
     return render_template('zero.html')
