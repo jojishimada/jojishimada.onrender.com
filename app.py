@@ -14,8 +14,6 @@ def novocontato():
 def novodevandroidkotlin(subpath):
     return render_template(subpath)
 
-
-
 @app.route('/zero')
 def novo():
     return render_template('zero.html')
