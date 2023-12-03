@@ -11,7 +11,7 @@ def novocontato():
     return render_template('contato.html')
 
 @app.route('/desenvolvimentoAndroidKotlin/<path:subpath>')
-def novodevandroidkotlin(subpath):
+def novoandroidkotlin(subpath):
     return render_template(subpath)
 
 @app.route('/zero')
