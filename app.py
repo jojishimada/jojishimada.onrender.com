@@ -14,6 +14,10 @@ def novocontato():
 def novoandroidkotlin(subpath):
     return render_template(subpath)
 
+@app.route('/artigos/<nomeartigo>')
+def novonomeartigo(nomeartigo):
+    return render_template(nomeartigo)
+
 @app.route('/zero')
 def novo():
     return render_template('zero.html')
