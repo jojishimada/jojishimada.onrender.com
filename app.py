@@ -16,7 +16,7 @@ def novodevandroidkotlin():
 
 @app.route('/templates/<path:subpath>')
 def android_kotlim_introducao(subpath):
-    return render_template($subpath+'.html')
+    return render_template(subpath)
 
 
 @app.route('/zero')
