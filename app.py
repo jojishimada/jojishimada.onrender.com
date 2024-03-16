@@ -20,6 +20,6 @@ def novonomeartigo(nomeartigo):
 
 @app.route('/zero')
 def novo():
-    return render_template('zero1.html')
+    return render_template('zero2.html')
 
 
